@@ -7,13 +7,13 @@ public class PaddleBehaviour : MonoBehaviour
     public float paddleSpd;
     private Rigidbody2D paddleRgd;
     public bool isLeft;
-    // Start is called before the first frame update
+   
     void Start()
     {
         paddleRgd = this.GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         MovePaddle();
